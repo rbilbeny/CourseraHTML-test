@@ -1,0 +1,98 @@
+/********** Sets general element / class properties **********/
+body {
+  background-color: #95f5d8;
+  font-family: sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 15px;
+  padding-left:  15px;
+  box-sizing: border-box;
+  width:  100%;
+}
+
+#main-tittle {
+  font-size: 175%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.column {
+  margin:  0px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.menu-section {
+  border: 1px solid black;
+  position:  relative;
+  margin:  0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height:  100%;
+}
+
+.menu-tittle {
+  font-size: 125%;
+  text-align: center;
+  border: 1px solid black;
+  width:  150px;
+  position:  absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.menu-content {
+  margin:  15px;
+  margin-top: 45px;
+}
+
+
+/********** Sets colors **********/
+#menu-1 {
+  background-color: #e0c9ab
+}
+
+#menu-2 {
+  background-color: #8a7254;  
+}
+
+#menu-3 {
+  background-color: #a37336;  
+}
+
+#menu-tittle-1 {
+  background-color: #50a3eb;
+  color: #363535;
+}
+
+#menu-tittle-2 {
+  background-color: #3f5263;
+  color: #f5971d;  
+}
+
+#menu-tittle-3 {
+  background-color: #09253d;
+  color:  whitesmoke;  
+}
+
+/********** Sets responsive performance for large devices **********/
+@media (min-width: 992px) {
+  .column {
+    float: left;
+    width:  33.33%;
+  }
+}
+
+/********** Sets responsive performance forn medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .column {
+    float: left;
+    width:  50%;
+  }
+  #third-column {
+    width:  100%;
+  }
+}
