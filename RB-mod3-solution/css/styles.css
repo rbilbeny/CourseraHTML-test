@@ -1,0 +1,90 @@
+/** HEADER **/
+
+/* Container and website main tittle */
+#header-nav {
+  background-color: #0eb562;
+}
+#header-nav .container-fluid {
+  height: auto;
+}
+.navbar-header .navbar-brand{
+  padding:  0;
+  margin:  0;
+}
+.navbar-brand a {
+  text-decoration: none;
+}
+.navbar-brand h1 { 
+  color: #434544;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left:  3.5vw;
+}
+
+/* Menu button */
+.navbar-header button {
+  margin:  20px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #434544;
+}
+
+/* Collapsable menu */
+#collapsable-nav {
+  color: #951C49;
+  background: #c9a5f2;
+  text-align: center;
+  padding: 0;
+}
+#nav-list {
+  margin: 0;
+}
+#nav-list div:hover {
+  background: #E7E7E7;
+}
+#nav-list div span{
+  font-size: 1.5em;
+  margin: 10px 10px 10px;
+}
+
+/* Main content (Our Menú and Chicken Section)*/
+body h2 {
+  margin:  20px 0px 45px;
+}
+#home-content {
+  background: #d7d5db;
+  margin: 0 0 80px;
+}
+#home-content h3 {
+  color: #434500;
+  font-size: 1.6em;
+  padding: 10px 5px 7.5px;
+  margin: 0;
+}
+#home-content p {
+  padding: 7.5px 15px 20px;
+  margin: 0;
+}
+
+/********** Small, Medium and Large devices only (Tablet & Desktop) **********/
+@media (min-width: 768px) {
+
+  /* Header */
+#header-nav .container-fluid {
+  height: 80px;
+}
+  /* End Header */
+#collapsable-nav {
+ display: none !important;
+}
+
+}
+
+/********** Extra small devices only mobile only **********/
+@media (max-width: 767px) {
+.container {
+  margin-right:  8vw;
+  margin-left:  8vw;
+}
+}
